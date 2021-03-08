@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_top">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_home_24"
@@ -17,4 +19,14 @@
             android:icon="@drawable/ic_baseline_post_add_24"
             android:title="@string/menu_advert" />
     </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_item_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/action_settings" >
+        </item>
+    </group>
+
 </menu>
