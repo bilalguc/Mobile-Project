@@ -14,10 +14,6 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_baseline_person_24"
             android:title="@string/menu_profile" />
-        <item
-            android:id="@+id/nav_advert"
-            android:icon="@drawable/ic_baseline_post_add_24"
-            android:title="@string/menu_advert" />
     </group>
     <group
         android:id="@+id/menu_bottom"
